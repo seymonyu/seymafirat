@@ -27,8 +27,8 @@ function Contact() {
             seymafirat@outlook.com
           </div>
           <div className="contact-big">
-            <a className="contact-link-big" href="tel:[phone number]">
-              <span class="bottom">+31641813700</span>
+            <a className="contact-link-big" href="tel:[+31641813701]">
+              <span class="bottom">+31641813701</span>
             </a>
           </div>
           <div className="contact-big"></div>
