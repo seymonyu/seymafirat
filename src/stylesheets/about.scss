@@ -18,10 +18,10 @@
 }
 
 .svg-text {
-  font-size: 29pt;
+  font-size: 26pt;
   font-family: $font-main;
   font-weight: lighter;
-
+  letter-spacing: 0.05em;
   text-transform: uppercase;
 }
 #about-contact {
@@ -29,9 +29,9 @@
   -moz-transition: font-size 0.5s;
   -o-transition: font-size 0.5s;
   transition: font-size 0.5s;
-  cursor: crosshair;
+  cursor: cell;
   &:hover {
     font-size: larger;
-    cursor: crosshair;
+    cursor: cell;
   }
 }

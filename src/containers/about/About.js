@@ -13,13 +13,13 @@ function About() {
   const { freq, scale, transform, opacity } = useSpring({
     reverse: open,
     from: {
-      scale: 10,
+      scale: 20,
       opacity: 0,
       transform: "scale(0.9)",
       freq: "0.0175, 0.0",
     },
-    to: { scale: 150, opacity: 1, transform: "scale(1)", freq: "0.0, 0.0" },
-    config: { duration: 3000 },
+    to: { scale: 100, opacity: 1, transform: "scale(1)", freq: "0.0, 0.0" },
+    config: { duration: 1500 },
   });
 
   return (

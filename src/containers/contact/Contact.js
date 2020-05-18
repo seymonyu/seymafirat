@@ -3,13 +3,9 @@ import "../../stylesheets/contact.scss";
 import { useSpring, animated } from "react-spring";
 import { useHistory } from "react-router-dom";
 
-function WorkContent() {
+function Contact() {
   const history = useHistory();
-  const scrollOnClick = (e) => {
-    e.preventDefault();
 
-    history.push("/");
-  };
   const props = useSpring({
     config: { duration: 1500 },
     opacity: 1,
@@ -104,4 +100,4 @@ function WorkContent() {
   );
 }
 
-export default WorkContent;
+export default Contact;
