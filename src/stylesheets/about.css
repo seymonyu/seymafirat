@@ -1,0 +1,39 @@
+.scroll-btn {
+  background-color: rgba(237, 237, 241, 0);
+  border: none;
+  -webkit-writing-mode: vertical-rl;
+      -ms-writing-mode: tb-rl;
+          writing-mode: vertical-rl;
+  text-orientation: upright;
+  position: absolute;
+  top: 92vh;
+  left: 46%;
+  outline: none;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  font-size: 14pt;
+  font-family: "Roboto", sans-serif;
+  color: #cfff48;
+}
+
+.hello {
+  height: 100vh;
+  width: 98%;
+  background-color: #d57dc7;
+  padding-left: 50px;
+}
+
+.scroll-btn-pnk {
+  background-color: #d57dc7;
+  border: none;
+  position: absolute;
+  top: 92vh;
+  left: 50%;
+  outline: none;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  font-size: 14pt;
+  font-family: "Roboto", sans-serif;
+  color: #cfff48;
+}
+/*# sourceMappingURL=about.css.map */

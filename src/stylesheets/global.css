@@ -1,0 +1,18 @@
+.scroll-btn {
+  background-color: rgba(237, 237, 241, 0);
+  border: none;
+  -webkit-writing-mode: vertical-rl;
+      -ms-writing-mode: tb-rl;
+          writing-mode: vertical-rl;
+  text-orientation: upright;
+  position: absolute;
+  top: 92vh;
+  left: 46%;
+  outline: none;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  font-size: 14pt;
+  font-family: "Roboto", sans-serif;
+  color: #cfff48;
+}
+/*# sourceMappingURL=global.css.map */

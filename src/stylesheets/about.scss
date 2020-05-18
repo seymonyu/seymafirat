@@ -1,0 +1,37 @@
+@import "global.scss";
+
+.hello {
+  height: 100vh;
+  width: 100%;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: $fuchia;
+}
+.animation-container {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.svg-text {
+  font-size: 29pt;
+  font-family: $font-main;
+  font-weight: lighter;
+
+  text-transform: uppercase;
+}
+#about-contact {
+  -webkit-transition: font-size 0.5s;
+  -moz-transition: font-size 0.5s;
+  -o-transition: font-size 0.5s;
+  transition: font-size 0.5s;
+  cursor: crosshair;
+  &:hover {
+    font-size: larger;
+    cursor: crosshair;
+  }
+}

@@ -1,0 +1,71 @@
+.scroll-btn {
+  background-color: rgba(237, 237, 241, 0);
+  border: none;
+  -webkit-writing-mode: vertical-rl;
+      -ms-writing-mode: tb-rl;
+          writing-mode: vertical-rl;
+  text-orientation: upright;
+  position: absolute;
+  top: 92vh;
+  left: 46%;
+  outline: none;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  font-size: 14pt;
+  font-family: "Roboto", sans-serif;
+  color: #cfff48;
+}
+
+.navbar-main {
+  background-color: rgba(237, 237, 241, 0);
+  position: fixed;
+  top: 20px;
+  left: 0px;
+}
+
+.navbar-main-container {
+  list-style-type: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.navbar-item {
+  -webkit-writing-mode: vertical-rl;
+      -ms-writing-mode: tb-rl;
+          writing-mode: vertical-rl;
+  text-orientation: upright;
+  margin: 30px;
+  font-family: "Roboto", sans-serif;
+  color: white;
+}
+
+Link {
+  text-decoration: none;
+}
+
+a:-webkit-any-link {
+  color: white;
+  cursor: pointer;
+  text-decoration: none;
+  -webkit-transition: all 500ms ease;
+}
+
+a:-webkit-any-link:visited {
+  text-decoration: none;
+}
+
+a:-webkit-any-link:hover {
+  font-size: larger;
+  -webkit-writing-mode: horizontal-tb;
+          writing-mode: horizontal-tb;
+  text-orientation: upright;
+  color: #ffce30;
+  letter-spacing: 0.3em;
+  margin-left: 50px;
+}
+/*# sourceMappingURL=navbar.css.map */

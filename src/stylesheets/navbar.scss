@@ -1,0 +1,44 @@
+@import "global.scss";
+
+.navbar-main {
+  background-color: $trans;
+  position: absolute;
+  top: 20px;
+}
+
+.navbar-main-container {
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+}
+
+.navbar-item {
+  margin-bottom: 50px;
+  writing-mode: vertical-rl;
+  transform-origin: 10 10;
+  transform: rotate(-180deg);
+  font-family: $font-second;
+  color: white;
+  &:hover {
+    font-size: larger;
+    writing-mode: horizontal-rl;
+    transform-origin: 10 10;
+    transform: rotate(0deg);
+    text-orientation: upright;
+    letter-spacing: 0.1em;
+  }
+}
+
+Link {
+  text-decoration: none;
+}
+.navbar-link:-webkit-any-link {
+  color: white;
+  cursor: pointer;
+  text-decoration: none;
+  -webkit-transition: all 500ms ease;
+  &:visited {
+    text-decoration: none;
+  }
+}

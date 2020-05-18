@@ -1,0 +1,44 @@
+@import "./global.scss";
+
+.footer-main {
+  background-color: $trans;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+}
+.footer-slide {
+  width: 100%;
+  overflow: hidden;
+}
+.footer-text {
+  font-family: $font-second;
+  color: $green;
+  width: 100%;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  font-weight: lighter;
+  animation: slide-left 16s infinite;
+  animation-timing-function: linear;
+}
+
+@keyframes slide-left {
+  0% {
+    margin-left: 100%;
+  }
+  25% {
+    margin-left: 71%;
+    color: $yellow;
+  }
+  50% {
+    margin-left: 42%;
+    color: $orange;
+  }
+  75% {
+    margin-left: 13%;
+    color: $fuchia;
+  }
+  100% {
+    margin-left: -16%;
+    color: $blue;
+  }
+}

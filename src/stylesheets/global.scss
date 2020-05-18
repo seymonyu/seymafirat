@@ -1,0 +1,36 @@
+$orange: #ffce30;
+$white: #fffff8;
+$yellow: #cfff48;
+$green: #48ffaa;
+$screen-height: 100vh;
+$font-main: "Anton", sans-serif;
+$font-head: "Ultra", serif;
+$font-second: "Roboto", sans-serif;
+$font-ab: "Big Shoulders Text", cursive;
+$header: 60pt;
+$body: 30pt;
+
+//second inspiration
+
+$fuchia: #d57dc7;
+$blue: #0e77ab;
+$brown: #e0b71e;
+$white-dark: #dbdadf;
+$red: #a3211f;
+$teal: #8cc9c1;
+$trans: rgba(237, 237, 241, 0);
+
+h2 {
+  font-size: 20pt;
+  color: white;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  font-family: $font-main;
+  font-weight: lighter;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+h3 {
+  font-size: 12pt;
+}

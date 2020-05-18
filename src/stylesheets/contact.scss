@@ -1,0 +1,203 @@
+@import "global.scss";
+
+.content-main {
+  height: 100vh;
+  background-color: $blue;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.sliders-container {
+  background-color: $blue;
+  color: $brown;
+  font-size: 100px;
+  font-family: $font-head;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  height: 90vh;
+  align-items: center;
+  margin: 20px;
+}
+.contact-container {
+  color: white;
+}
+.contact-links {
+  margin-top: 200px;
+  display: flex;
+  flex-direction: row;
+  cursor: cell;
+}
+.contact-link-item:-webkit-any-link {
+  color: white;
+  cursor: cell;
+  text-decoration: none;
+  margin: 20px;
+  font-family: $font-second;
+  -webkit-transition: all 500ms ease;
+  &:visited {
+    text-decoration: none;
+  }
+  &:hover {
+    font-size: larger;
+    writing-mode: horizontal-tb;
+    text-orientation: upright;
+    color: $orange;
+    letter-spacing: 0.1em;
+    margin-left: 50px;
+  }
+}
+h1 {
+  color: white;
+}
+.slider-item {
+  background-color: $brown;
+  width: 200px;
+  height: 200px;
+  display: flex;
+  margin: 10px;
+  justify-content: center;
+}
+
+.contact-big {
+  font-family: $font-second;
+  font-size: 60pt;
+  color: $fuchia;
+  -webkit-transition: color 1s;
+  -moz-transition: color 1s;
+  -o-transition: color 1s;
+  transition: color 1s;
+  cursor: cell;
+  &:hover {
+    color: $green;
+  }
+}
+.contact-link-big:-webkit-any-link {
+  color: $orange;
+  text-decoration: none;
+  -webkit-transition: color 1s;
+  -moz-transition: color 1s;
+  -o-transition: color 1s;
+  transition: color 1s;
+  cursor: cell;
+
+  &:hover {
+    color: $teal;
+  }
+}
+form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.wordCarousel {
+  div {
+    overflow: hidden;
+    position: relative;
+    float: right;
+    height: 65px;
+    padding-top: 10px;
+    margin-top: -10px;
+    li {
+      padding: 0 10px;
+      height: 45px;
+      margin-bottom: 45px;
+      display: block;
+    }
+  }
+}
+
+.flip2 {
+  animation: flip2 6s cubic-bezier(0.23, 1, 0.32, 1.2) infinite;
+}
+.flip3 {
+  animation: flip3 8s cubic-bezier(0.23, 1, 0.32, 1.2) infinite;
+}
+.flip4 {
+  animation: flip4 10s cubic-bezier(0.23, 1, 0.32, 1.2) infinite;
+}
+
+@keyframes flip2 {
+  0% {
+    margin-top: -270px;
+  }
+  5% {
+    margin-top: -90px;
+  }
+  50% {
+    margin-top: -90px;
+  }
+  55% {
+    margin-top: 0px;
+  }
+  99.99% {
+    margin-top: 0px;
+  }
+  100% {
+    margin-top: -270px;
+  }
+}
+
+@keyframes flip3 {
+  0% {
+    margin-top: -270px;
+  }
+  5% {
+    margin-top: -180px;
+  }
+  33% {
+    margin-top: -180px;
+  }
+  38% {
+    margin-top: -90px;
+  }
+  66% {
+    margin-top: -90px;
+  }
+  71% {
+    margin-top: 0px;
+  }
+  99.99% {
+    margin-top: 0px;
+  }
+  100% {
+    margin-top: -270px;
+  }
+}
+
+@keyframes flip4 {
+  0% {
+    margin-top: -360px;
+  }
+  5% {
+    margin-top: -270px;
+  }
+  25% {
+    margin-top: -270px;
+  }
+  30% {
+    margin-top: -180px;
+  }
+  50% {
+    margin-top: -180px;
+  }
+  55% {
+    margin-top: -90px;
+  }
+  75% {
+    margin-top: -90px;
+  }
+  80% {
+    margin-top: 0px;
+  }
+  99.99% {
+    margin-top: 0px;
+  }
+  100% {
+    margin-top: -270px;
+  }
+}
+
+// Layout //////////////////////////////////////////
