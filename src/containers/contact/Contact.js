@@ -22,7 +22,7 @@ function Contact() {
     <animated.div style={props}>
       <div className="content-main">
         <div>
-          <h2>CONTACT ME!</h2>
+          <div className="contact-h2">CONTACT ME!</div>
           <div onClick={mailTo} className="contact-big">
             seymafirat@outlook.com
           </div>
