@@ -21,7 +21,7 @@ function Contact() {
   return (
     <animated.div style={props}>
       <div className="content-main">
-        <div>
+        <div className="contact-big-container">
           <div className="contact-h2">CONTACT ME!</div>
           <div onClick={mailTo} className="contact-big">
             seymafirat@outlook.com
@@ -31,7 +31,6 @@ function Contact() {
               <span class="bottom">+31641813701</span>
             </a>
           </div>
-          <div className="contact-big"></div>
         </div>
 
         <div className="contact-links">

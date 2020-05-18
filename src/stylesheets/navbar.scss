@@ -50,9 +50,10 @@ Link {
 @media only screen and (max-width: 600px) {
   .navbar-item {
     margin-bottom: 50px;
+    font-size: 14pt;
     writing-mode: horizontal-tb;
     transform: rotate(0deg);
-    margin-left: 10px;
+    margin-left: 5px;
   }
   .navbar-main-container {
     flex-direction: row;
@@ -65,7 +66,8 @@ Link {
     margin-bottom: 50px;
     writing-mode: horizontal-tb;
     transform: rotate(0deg);
-    margin-left: 10px;
+    margin-left: 5px;
+    font-size: 14pt;
   }
   .navbar-main-container {
     flex-direction: row;
@@ -78,7 +80,8 @@ Link {
     margin-bottom: 50px;
     writing-mode: horizontal-tb;
     transform: rotate(0deg);
-    margin-left: 10px;
+    margin-left: 5px;
+    font-size: 14pt;
   }
   .navbar-main-container {
     flex-direction: row;
