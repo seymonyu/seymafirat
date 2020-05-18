@@ -19,6 +19,9 @@
   transition: 0.5s;
   overflow: hidden;
   -webkit-transition: all 500ms ease;
+  -moz-transition: all 500ms ease;
+  -o-transition: all 500ms ease;
+  transition: all 500ms ease;
 }
 
 %btn-styles {
@@ -31,6 +34,10 @@
   background: none;
   border: none;
   color: #ffffff;
+  -webkit-transition: all 500ms ease;
+  -moz-transition: all 500ms ease;
+  -o-transition: all 500ms ease;
+  transition: all 500ms ease;
 
   &:focus {
     text-decoration: none;
@@ -50,4 +57,82 @@
 #goRight {
   right: 0;
   @extend %btn-styles;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .slider-main {
+    width: 90%;
+    height: 60vh;
+    margin-top: 20vh;
+  }
+  .slide-item {
+    height: 30vh;
+  }
+
+  #goLeft {
+    &:hover {
+      left: 3px;
+      font-size: 10pt;
+    }
+  }
+
+  #goRight {
+    &:hover {
+      right: 8px;
+      font-size: 10pt;
+    }
+  }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 600px) and (max-width: 736px) {
+  .slider-main {
+    width: 60%;
+    height: 60vh;
+    margin-top: 20vh;
+  }
+  .slide-item {
+    height: 60vh;
+  }
+
+  #goLeft {
+    &:hover {
+      left: 0px;
+      font-size: 10pt;
+    }
+  }
+
+  #goRight {
+    &:hover {
+      right: 0px;
+      font-size: 10pt;
+    }
+  }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 737px) and (max-width: 992px) {
+  .slider-main {
+    width: 80%;
+    height: 70vh;
+    margin-top: 20vh;
+  }
+  .slide-item {
+    height: 40vh;
+  }
+
+  #goLeft {
+    &:hover {
+      left: 0px;
+      font-size: 10pt;
+    }
+  }
+
+  #goRight {
+    &:hover {
+      right: 0px;
+      font-size: 10pt;
+    }
+  }
 }

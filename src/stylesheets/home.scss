@@ -53,3 +53,48 @@ body {
 .trails-text > div {
   overflow: hidden;
 }
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .trails-text {
+    position: relative;
+    padding-left: 50px;
+    padding-top: 50px;
+    width: 100%;
+    height: 60px;
+    line-height: 60px;
+    color: $orange;
+    font-size: 3em;
+    font-weight: 600;
+  }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 600px) and (max-width: 736px) {
+  .trails-text {
+    position: relative;
+    padding-left: 50px;
+    padding-top: 0px;
+    width: 100%;
+    height: 50px;
+    line-height: 50px;
+    color: $orange;
+    font-size: 2.5em;
+    font-weight: 600;
+  }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 737px) and (max-width: 992px) {
+  .trails-text {
+    position: relative;
+    padding-left: 50px;
+    padding-top: 80px;
+    width: 100%;
+    height: 80px;
+    line-height: 60px;
+    color: $orange;
+    font-size: 4em;
+    font-weight: 600;
+  }
+}

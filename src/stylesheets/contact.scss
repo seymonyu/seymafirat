@@ -211,3 +211,89 @@ form {
 }
 
 // Layout //////////////////////////////////////////
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .contact-big {
+    font-family: $font-second;
+    font-size: 22pt;
+  }
+  .sliders-container {
+    background-color: $blue;
+    color: $brown;
+    font-size: 50px;
+    padding: 0px;
+    margin: 0 0 0 0;
+  }
+  li {
+    font-size: 10px;
+    padding: 0px;
+  }
+  .contact-link-item:-webkit-any-link {
+    color: white;
+    cursor: cell;
+    text-decoration: none;
+    margin: 0px;
+    padding: 0px;
+  }
+  .flip2 {
+    margin: 0px;
+    padding: 0 0 0 0;
+  }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 600px) and (max-width: 736px) {
+  .contact-big {
+    padding-top: 30px;
+    font-family: $font-second;
+    font-size: 24pt;
+  }
+  .sliders-container {
+    padding-top: 50px;
+    background-color: $blue;
+    color: $brown;
+    font-size: 50px;
+  }
+  li {
+    font-size: 10px;
+  }
+  .contact-link-item:-webkit-any-link {
+    color: white;
+    cursor: cell;
+    text-decoration: none;
+  }
+  .flip2 {
+    margin: 0px;
+    padding: 0 0 0 0;
+  }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 737px) and (max-width: 992px) {
+  .contact-big {
+    font-family: $font-second;
+    font-size: 22pt;
+  }
+  .sliders-container {
+    background-color: $blue;
+    color: $brown;
+    font-size: 50px;
+    padding: 0px;
+    margin: 0 0 0 0;
+  }
+  li {
+    font-size: 10px;
+    padding: 0px;
+  }
+  .contact-link-item:-webkit-any-link {
+    color: white;
+    cursor: cell;
+    text-decoration: none;
+    margin: 0px;
+    padding: 0px;
+  }
+  .flip2 {
+    margin: 0px;
+    padding: 0 0 0 0;
+  }
+}

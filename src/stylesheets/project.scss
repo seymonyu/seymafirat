@@ -19,6 +19,9 @@
   margin: auto;
   display: flex;
   -webkit-transition: all 500ms ease;
+  -moz-transition: all 500ms ease;
+  -o-transition: all 500ms ease;
+  transition: all 500ms ease;
   &:hover {
     opacity: 0.9;
   }
@@ -48,4 +51,21 @@
     color: $yellow;
     letter-spacing: 0.2em;
   }
+}
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .project-link {
+    font-size: 10pt;
+    &:hover {
+      font-size: 14pt;
+    }
+  }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 600px) and (max-width: 736px) {
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 737px) and (max-width: 992px) {
 }

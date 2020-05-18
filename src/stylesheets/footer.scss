@@ -42,3 +42,22 @@
     color: $blue;
   }
 }
+@media only screen and (max-width: 600px) {
+  .footer-text {
+    font-size: 10pt;
+  }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 600px) and (max-width: 736px) {
+  .footer-text {
+    font-size: 10pt;
+  }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 737px) and (max-width: 992px) {
+  .footer-text {
+    font-size: 10pt;
+  }
+}
