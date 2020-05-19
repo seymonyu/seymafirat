@@ -12,6 +12,7 @@ function Project3() {
             className="project-link"
             href="https://github.com/seymonyu/firstProject_Amsterdam_photo_guide"
             target="_blank"
+            rel="noopener noreferrer"
           >
             GITHUB
           </a>
@@ -19,6 +20,7 @@ function Project3() {
             className="project-link"
             href="https://seymonyu.github.io/firstProject_Amsterdam_photo_guide/"
             target="_blank"
+            rel="noopener noreferrer"
           >
             WEBSITE
           </a>

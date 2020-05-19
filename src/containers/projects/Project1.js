@@ -24,6 +24,7 @@ function Project1() {
             className="project-link"
             href="https://github.com/legyta/AnimalsWhoRead"
             target="_blank"
+            rel="noopener noreferrer"
           >
             GITHUB
           </a>
@@ -31,6 +32,7 @@ function Project1() {
             className="project-link"
             href="https://sissythepanda.netlify.app/"
             target="_blank"
+            rel="noopener noreferrer"
           >
             WEBSITE
           </a>

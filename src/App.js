@@ -5,7 +5,7 @@ import Contact from "./containers/contact/Contact";
 import Navbar from "./containers/navbar/Navbar";
 import Slider from "./containers/slider/Slider";
 import Footer from "./containers/footer/Footer";
-import { Switch, Route, withRouter } from "react-router-dom";
+import { Switch, Route } from "react-router-dom";
 
 import "./App.css";
 
