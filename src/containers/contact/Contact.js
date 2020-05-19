@@ -1,11 +1,8 @@
 import React from "react";
 import "../../stylesheets/contact.scss";
 import { useSpring, animated } from "react-spring";
-import { useHistory } from "react-router-dom";
 
 function Contact() {
-  const history = useHistory();
-
   const props = useSpring({
     config: { duration: 1500 },
     opacity: 1,
@@ -38,6 +35,7 @@ function Contact() {
             className="contact-link-item"
             href="https://www.linkedin.com/in/seymonyu/"
             target="_blank"
+            rel="noopener noreferrer"
           >
             {" "}
             <h4 class="wordCarousel">
@@ -53,6 +51,7 @@ function Contact() {
             className="contact-link-item"
             href="https://github.com/seymonyu"
             target="_blank"
+            rel="noopener noreferrer"
           >
             <h4 class="wordCarousel">
               <div>
@@ -68,6 +67,7 @@ function Contact() {
             className="contact-link-item"
             href="https://www.instagram.com/seymonyuu/"
             target="_blank"
+            rel="noopener noreferrer"
           >
             <h4 class="wordCarousel">
               <div>
@@ -83,6 +83,7 @@ function Contact() {
             className="contact-link-item"
             href="mailto:seymafirat@outlook.com"
             target="_blank"
+            rel="noopener noreferrer"
           >
             <h4 class="wordCarousel">
               <div>

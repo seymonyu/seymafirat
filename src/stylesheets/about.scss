@@ -9,6 +9,16 @@
   align-items: center;
   background-color: $fuchia;
 }
+.about-phone {
+  position: absolute;
+  left: 13%;
+  top: 150px;
+  width: 75%;
+  opacity: 0;
+  font-size: 20pt;
+  color: $green;
+  text-transform: uppercase;
+}
 .animation-container {
   height: 100vh;
   width: 100%;
@@ -35,27 +45,75 @@
     cursor: cell;
   }
 }
-
+#about-phone-link:-webkit-any-link {
+  color: $teal;
+  text-decoration: none;
+  font-size: 20pt;
+  &:focus {
+    text-decoration: none;
+    outline: none;
+  }
+  &:hover {
+    font-size: 24pt;
+  }
+  &:visited {
+    outline: none;
+    text-decoration: none;
+  }
+}
+.span-hi {
+  color: $yellow;
+  font-size: larger;
+}
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
   .animation-container {
-    height: 100vh;
-    width: 100%;
-    margin-left: 50px;
+    opacity: 0;
   }
-  .svg-text {
+  .about-phone {
+    position: absolute;
+    left: 13%;
+    top: 120px;
+    width: 75%;
+    opacity: 1;
     font-size: 20pt;
-    font-family: $font-main;
-    font-weight: lighter;
-    letter-spacing: 0em;
-    text-transform: uppercase;
+    color: $green;
   }
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 600px) and (max-width: 736px) {
+  .animation-container {
+    opacity: 0;
+  }
+  .about-phone {
+    position: absolute;
+    left: 13%;
+    top: 90px;
+    width: 75%;
+    opacity: 1;
+    font-size: 18pt;
+    color: $green;
+  }
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 737px) and (max-width: 992px) {
+  .animation-container {
+    opacity: 0;
+  }
+  .about-phone {
+    position: absolute;
+    left: 13%;
+    top: 200px;
+    width: 75%;
+    opacity: 1;
+    font-size: 30pt;
+    color: $green;
+  }
+  #about-phone-link:-webkit-any-link {
+    color: $teal;
+    text-decoration: none;
+    font-size: 32pt;
+  }
 }

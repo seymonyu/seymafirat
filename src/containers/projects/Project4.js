@@ -12,6 +12,7 @@ function Project4() {
             className="project-link"
             href="https://github.com/software-bastards/charlies-bastards-employee-dashboard"
             target="_blank"
+            rel="noopener noreferrer"
           >
             GITHUB
           </a>
