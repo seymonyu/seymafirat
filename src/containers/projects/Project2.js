@@ -12,6 +12,7 @@ function Project2() {
             className="project-link"
             href="https://github.com/seymonyu/amsterdam-dublin-hackathon2"
             target="_blank"
+            rel="noopener noreferrer"
           >
             GITHUB
           </a>
@@ -19,6 +20,7 @@ function Project2() {
             className="project-link"
             href="https://borlin.netlify.app/"
             target="_blank"
+            rel="noopener noreferrer"
           >
             WEBSITE
           </a>

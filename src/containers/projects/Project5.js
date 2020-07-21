@@ -24,6 +24,7 @@ function Project5() {
             className="project-link"
             href="https://github.com/seymonyu/CodeWoman"
             target="_blank"
+            rel="noopener noreferrer"
           >
             GITHUB
           </a>
@@ -31,6 +32,7 @@ function Project5() {
             className="project-link"
             href="https://artechmis.netlify.app/"
             target="_blank"
+            rel="noopener noreferrer"
           >
             WEBSITE
           </a>

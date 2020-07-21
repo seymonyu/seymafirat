@@ -1,15 +1,12 @@
 import React, { useState } from "react";
 import "../../stylesheets/about.scss";
 import { useSpring, animated } from "react-spring";
-
-import { useHistory } from "react-router-dom";
-
 const AnimFeTurbulence = animated("feTurbulence");
 const AnimFeDisplacementMap = animated("feDisplacementMap");
 
 function About() {
   const [open, click] = useState(false);
-  const history = useHistory();
+
   const { freq, scale, transform, opacity } = useSpring({
     reverse: open,
     from: {
@@ -24,12 +21,21 @@ function About() {
 
   return (
     <div className="hello">
+      <div className="about-phone">
+        <span className="span-hi">Hi! </span>My Name is Şeyma. I am a fresh Full
+        Stack Web Developer who was born in a really warm place. I am passionate
+        about creating products with a unique identity. I take immense
+        satisfaction in being busy and prodcutive.
+        <a id="about-phone-link" href="/contact">
+          Let’s contact!
+        </a>
+      </div>
       <div className="animation-container" onClick={() => click(!open)}>
         <animated.svg
           style={{ transform, opacity }}
           width="1200"
           height="500"
-          viewBox="200 100 900 500"
+          viewBox="200 100 900 600"
           fill="none"
           xmlns="http://www.w3.org/2000/svg"
           /* viewBox="50.067480468750006 -28.011242675781247 399.8650390625 206.0224853515625" */
@@ -54,14 +60,14 @@ function About() {
             </filter>
           </defs>
           <g
-            transform="translate(110.55000305175781, 114.60000228881836)"
+            transform="translate(105.55000305175781, 114.60000228881836)"
             filter="url(#water)"
           >
             <text className="svg-text" x="0" dy="3em">
               <tspan x="2" dy="2em" fill="#48ffaa">
                 Hi!
               </tspan>
-              <tspan x="2" dy="1.8em" fill="">
+              <tspan x="2" dy="1.8em" fill="#48ffaa">
                 My Name is Şeyma. I am a fresh Full Stack Web Developer who was
               </tspan>
               <tspan x="2" dy="1.8em" fill="#48ffaa">
