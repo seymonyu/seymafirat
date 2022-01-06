@@ -68,14 +68,14 @@ function About() {
                 Hi!
               </tspan>
               <tspan x="2" dy="1.8em" fill="#48ffaa">
-                My Name is Şeyma. I am a fresh Full Stack Web Developer who was
+              I am a software test engineer who was 
               </tspan>
               <tspan x="2" dy="1.8em" fill="#48ffaa">
-                born in a really warm place. I am passionate about creating
-                products
+                born in a really warm place.  I am passionate
+        about releasing the product 
               </tspan>
               <tspan x="2" dy="1.8em" fill="#48ffaa">
-                with a unique identity. I take immense satisfaction in being
+              with a high end quality. I take immense satisfaction in being
                 busy
               </tspan>
 
