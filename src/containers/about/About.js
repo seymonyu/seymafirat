@@ -22,9 +22,9 @@ function About() {
   return (
     <div className="hello">
       <div className="about-phone">
-        <span className="span-hi">Hi! </span>My Name is Şeyma. I am a fresh Full
-        Stack Web Developer who was born in a really warm place. I am passionate
-        about creating products with a unique identity. I take immense
+        <span className="span-hi">Hello! </span>My Name is Şeyma. I am a software test engineer
+        who was born in a really warm place. I am passionate
+        about releasing the product with a high end quality. I take immense
         satisfaction in being busy and prodcutive.
         <a id="about-phone-link" href="/contact">
           Let’s contact!
