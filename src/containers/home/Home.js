@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import "../../stylesheets/home.scss";
 import { useTrail, animated } from "react-spring";
 
-const items = ["SEYMA", "FIRAT", "AMSTERDAM", "2020"];
+const items = ["SEYMA", "FIRAT", "AMSTERDAM", "2022"];
 const config = { mass: 5, tension: 2000, friction: 400 };
 
 function Home() {
