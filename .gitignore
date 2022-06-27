@@ -25,6 +25,5 @@ yarn-error.log*
 
 #files
 
-/src/image
-*.mp4
+/src/image/*.mp4
 *.png
