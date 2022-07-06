@@ -78,7 +78,22 @@ function Contact() {
               </div>
             </h4>
           </a>
-
+          <a
+            className="contact-link-item"
+            href="https://nl.pinterest.com/seymonyu/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            {" "}
+            <h4 class="wordCarousel">
+              <div>
+                <ul class="flip2">
+                  <li>PINTEREST</li>
+                  <li>PINTEREST</li>
+                </ul>
+              </div>
+            </h4>
+          </a>
           <a
             className="contact-link-item"
             href="mailto:seymafirat@outlook.com"
