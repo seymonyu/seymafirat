@@ -22,7 +22,7 @@
     "react-spring": "^8.0.27",
     "react-transition-group": "^4.4.1",
     "sass": "^1.26.5",
-    "scss-tokenizer": "^0.4.2",
+    "scss-tokenizer": "^0.4.3",
     "url-parse": "^1.5.10",
     "websocket-extensions": "^0.1.4"
   },
