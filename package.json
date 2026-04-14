@@ -9,7 +9,7 @@
     "ajv": "^8.18.0",
     "async": "^3.2.4",
     "eventsource": "^2.0.2",
-    "follow-redirects": "^1.15.6",
+    "follow-redirects": "^1.16.0",
     "lodash": "^4.17.21",
     "minimist": "^1.2.6",
     "node-sass": "^9.0.0",
